@@ -12,7 +12,7 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    runtimeOnly("org.junit.platform:junit-platform-launcher")
+    runtimeOnly("org.junit.platform:junit-platform-launcher:1.10.0")
 }
 
 tasks.test {
