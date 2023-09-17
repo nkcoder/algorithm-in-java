@@ -2,7 +2,9 @@ package io.nkcoder.leetcode;
 
 import java.util.Stack;
 
-// https://leetcode.com/problems/basic-calculator-ii/description/
+/**
+ * <a href="https://leetcode.com/problems/basic-calculator-ii/description/">227. Basic Calculator II<a/>
+ */
 public class BasicCalculatorII {
   // with stack: easier to understand
   public static int calculate(String s) {
@@ -38,7 +40,7 @@ public class BasicCalculatorII {
     return stack.stream().reduce(0, Integer::sum);
   }
 
-  // without stack
+  // without stack: better
   public static int calculate2(String s) {
     if (s == null || s.isEmpty()) {
       return 0;
