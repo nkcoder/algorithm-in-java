@@ -1,8 +1,8 @@
-package io.nkcoder.leetcode;
+package io.nkcoder.leetcode.array;
 
 import org.junit.jupiter.api.Test;
 
-import static io.nkcoder.leetcode.ArrayConcatenation.getConcatenation;
+import static io.nkcoder.leetcode.array.ArrayConcatenation.getConcatenation;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class ArrayConcatenationTest {

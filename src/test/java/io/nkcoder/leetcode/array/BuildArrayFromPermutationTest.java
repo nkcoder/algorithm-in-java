@@ -1,9 +1,9 @@
-package io.nkcoder.leetcode;
+package io.nkcoder.leetcode.array;
 
 import org.junit.jupiter.api.Test;
 
-import static io.nkcoder.leetcode.BuildArrayFromPermutation.buildArray;
-import static io.nkcoder.leetcode.BuildArrayFromPermutation.buildArray2;
+import static io.nkcoder.leetcode.array.BuildArrayFromPermutation.buildArray;
+import static io.nkcoder.leetcode.array.BuildArrayFromPermutation.buildArray2;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class BuildArrayFromPermutationTest {

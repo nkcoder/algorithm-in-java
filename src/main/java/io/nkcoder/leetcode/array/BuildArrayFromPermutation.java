@@ -1,4 +1,4 @@
-package io.nkcoder.leetcode;
+package io.nkcoder.leetcode.array;
 
 /**
  * <a href="https://leetcode.com/problems/build-array-from-permutation/">1920. Build Array from Permutation</a>

@@ -1,9 +1,9 @@
-package io.nkcoder.leetcode;
+package io.nkcoder.leetcode.array;
 
 import org.junit.jupiter.api.Test;
 
-import static io.nkcoder.leetcode.ValueAfterOperation.finalValueAfterPerformingOperation;
-import static io.nkcoder.leetcode.ValueAfterOperation.finalValueAfterPerformingOperation2;
+import static io.nkcoder.leetcode.array.ValueAfterOperation.finalValueAfterPerformingOperation;
+import static io.nkcoder.leetcode.array.ValueAfterOperation.finalValueAfterPerformingOperation2;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ValueAfterOperationTest {

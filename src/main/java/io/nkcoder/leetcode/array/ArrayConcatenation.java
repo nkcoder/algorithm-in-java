@@ -1,4 +1,4 @@
-package io.nkcoder.leetcode;
+package io.nkcoder.leetcode.array;
 
 /**
  * <a href="https://leetcode.com/problems/concatenation-of-array/">1929. Concatenation of Array</a>

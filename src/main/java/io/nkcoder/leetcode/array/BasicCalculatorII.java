@@ -1,4 +1,4 @@
-package io.nkcoder.leetcode;
+package io.nkcoder.leetcode.array;
 
 import java.util.Stack;
 

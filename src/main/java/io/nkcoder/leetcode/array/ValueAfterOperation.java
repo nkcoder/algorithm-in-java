@@ -1,4 +1,4 @@
-package io.nkcoder.leetcode;
+package io.nkcoder.leetcode.array;
 
 /**
  * <a href="https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/">2011. Final Value of Variable After Performing Operations</a>
