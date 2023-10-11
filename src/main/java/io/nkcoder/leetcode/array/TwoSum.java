@@ -7,8 +7,8 @@ import java.util.Map;
  * <a href="https://leetcode.com/problems/two-sum/">Two Sum</a>
  * <pre>
  *     1. only exactly one match
- *     2. use 2 indices to loop the nums twice will incur TC: O(n^2), but SC: O(1)
- *     3. use a map to swap SC for TC. TC: O(n), SC: O(n)
+ *     2. use 2 indices to loop the nums twice will incur TC: O(n^2), but SC: O(1).
+ *     3. use a map (check if the diff exists in the map) to swap SC for TC. TC - O(n), SC - O(n).
  * </pre>
  */
 public class TwoSum {
