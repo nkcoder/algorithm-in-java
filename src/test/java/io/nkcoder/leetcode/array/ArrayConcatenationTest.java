@@ -8,14 +8,14 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 public class ArrayConcatenationTest {
 
   @Test
-  public void shouldReturnConcatenation() {
+  public void test_case1() {
     int[] input = {1, 2, 2, 3};
     int[] result = getConcatenation(input);
     assertArrayEquals(new int[]{1, 2, 2, 3, 1, 2, 2, 3}, result);
   }
 
   @Test
-  public void shouldReturnConcatenationForOnly1Element() {
+  public void test_case2() {
     int[] input = {1};
     int[] result = getConcatenation(input);
     assertArrayEquals(new int[]{1, 1}, result);
